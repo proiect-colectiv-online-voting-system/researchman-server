@@ -1,0 +1,20 @@
+{
+  "info": {
+    "name": "UserDocument",
+    "description": ""
+  },
+  "connection": "default",
+  "collectionName": "groups_user_documents",
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "permission": {
+      "model": "permission",
+      "plugin": "users-permissions"
+    },
+    "reports": {
+      "collection": "report"
+    }
+  }
+}
