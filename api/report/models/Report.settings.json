@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "reports",
+  "info": {
+    "name": "report",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "score": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "reportfiles",
+  "info": {
+    "name": "reportfile",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "ExcelFile": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "ParsedData": {
+      "type": "json"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

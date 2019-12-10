@@ -1,0 +1,60 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/testApis",
+      "handler": "TestApi.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/testApis/hello",
+      "handler": "TestApi.hello",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/testApis/count",
+      "handler": "TestApi.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/testApis/:id",
+      "handler": "TestApi.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/testApis",
+      "handler": "TestApi.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/testApis/:id",
+      "handler": "TestApi.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/testApis/:id",
+      "handler": "TestApi.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
