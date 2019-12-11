@@ -7,7 +7,10 @@
   },
   "options": {
     "increments": true,
-    "timestamps": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
     "comment": ""
   },
   "attributes": {
@@ -15,6 +18,18 @@
       "type": "string"
     },
     "score": {
+      "type": "integer"
+    },
+    "Authors": {
+      "type": "string"
+    },
+    "Publication": {
+      "type": "string"
+    },
+    "Page": {
+      "type": "string"
+    },
+    "AuthorCount": {
       "type": "integer"
     }
   }

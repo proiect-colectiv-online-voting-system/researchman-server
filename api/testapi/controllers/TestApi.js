@@ -9,7 +9,7 @@ const XLSX = require("xlsx")
 module.exports = {
     // GET /testApis/hello
     hello: async ctx => {
-        var workbook = XLSX.readFile("./public/sample.xlsx");
+        var workbook = XLSX.readFile("./public/Conf-1.xlsx");
 
         // ctx.send(JSON.stringify(workbook, null, 4));
 
